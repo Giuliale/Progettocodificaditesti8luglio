@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "PostcardProject.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tei1">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt1">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Devouement- Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="GL">Giulia Lepori</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="LS">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt xml:id="editionStmt1">
+                <!-- COMPILAZIONE -->
+                <edition>Università di Pisa, Informatica Umanistica
+                    <date>2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name xml:id="XY1">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="XY2">Tommaso Castagneto</name>
+                    <name xml:id="XZ1">Giulia Lepori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt xml:id="publicationStmt1">
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="noteStmt1">
+                <note>Sul fronte riporta stampato titolo e nome dell' autore, sul retro “Guerre Europeenne 1914-1916, edition Patriotique” e “I.Lapina, Imp. Edit. - 75, rue Denfert-Rochereau, 77 Paris”, H. Tenre autore dell' opera </note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">Devouement</title>
+                    <author>Giovanni</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Editore</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace xml:id="pubPlace1">Ravenna</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date xml:id="date1" when="1916523">1916/05/23</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_076_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>assente</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <additions>Sul fronte riporta stampato titolo e nome dell' autore, sul retro “Guerre Europeenne 1914-1916, edition Patriotique” e “I.Lapina, Imp. Edit. - 75, rue Denfert-Rochereau, 77 Paris”, H. Tenre autore dell' opera </additions>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="HT">
+                        <persName>
+                            <forename>Henry</forename>
+                            <surname>Tenre</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                <listOrg>
+                   <org>
+                        <orgName type="N"/>
+                        <desc>Comune di La Spezia</desc>
+                    </org>
+                    </org>
+                </listOrg>
+                
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni</persName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="postage" when="1916-05-23">1916/05/23</date>
+                </correspAction>
+                
+                <correspContext>
+                    <p>
+                        <!-- previous -->
+                        <!-- forward -->
+                    </p>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Ritratto di crocerossina in uno scenario rurale con cielo in tempesta</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="Cartolina1">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte1" n="1" xml:id="Cartolinaf1"/>
+            <div type="fronte">
+           
+                <figure xml:id="figure1">
+                    <graphic url="progetto-esame/ProgettoCartoline/Scan_Cartoline_jpg/7694-076F.jpg" />
+                    <head>
+                         <title xml:id="titolo1">Devouement</title>
+                         <figDesc>Ritratto di crocerossina, sullo sfondo aperta campagna e cielo grigio</figDesc>
+                    </head>
+                </figure>
+            </div>
+            <pb facs="#retro1" n="2" xml:id="Cartolinar1"/>
+            <div type="retro" xml:id="divTxt1">
+                <div xml:id="testo1" type="message" facs="#zone1">
+                <!-- Intestazione cartolina con luogo e data di stesura -->
+               <p>
+                     <lb/>
+                        <placeName ref="#RA">Ravenna</placeName>
+                        <pc pos="$," join="left">,</pc>
+                        <w pos="ADV">lì</w>
+                        <date when="2351916">
+                            <num>23</num>
+                            <pc>maggio</pc>
+                            <num>1916</num>
+                        </date>
+                
+                        <!-- Corpo della cartolina -->
+                    <p xml:id="corpo1">
+                    <p>
+                        <persName ref="#GC">
+                            Giovannino
+                        </persName>
+                    </p>
+                    <cb/>
+               
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+

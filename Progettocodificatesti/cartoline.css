@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;;
+
+}
+
+@font-face {
+    font-family:'Montserrat', sans-serif;
+    
+}
+
+html {
+
+    font-size: 1em;
+    font-weight: normal;
+} 
+
+
+#principale{
+  transition: margin-left .5s;
+}
+
+#principale1{
+  transition: margin-left .5s;
+}
+
+
+/*MENU*/
+
+.hamburger-icon {
+    margin: 0;
+    padding: 19px 16px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.hamburger-icon span {
+    width: 33px;
+    background-color: white;
+    height: 32px;
+    display: block;
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+
+.hamburger-icon span:last-child {
+    margin-bottom:0px;
+}
+
+
+.menuVerticale{
+  height: 40%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1d242a;
+  overflow-x: hidden;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.menuVerticale a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Monserrat', sans-serif;
+
+}
+
+.menuVerticale a:hover{
+  color: white;
+}
+
+.menuVerticale .close{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.attivo{
+  background-color: white;
+}
+/*FINE MENU*/
+
+
+
+/* DIV DESCRIZIONE CARTOLINE */
+.descrizioneTotale1{
+    background-color:#1d242a ;
+    border-radius:5px;
+    color:white;
+    height:600px;    
+}
+
+.descrizioneTotale2{
+    background-color:#1d242a ;
+    border-radius:5px;
+    color:white;
+    height:720px;    
+}
+
+
+.info{
+    float:left;
+
+}
+
+.parteTestuale{
+    float:right;
+}
+
+/* FINE DESCRIZIONE */
+
+
+
+header {
+    font-size: 2em;
+    background-color:rgb(0, 23, 128);
+    color: white;
+    height:50px;
+    text-align:center;
+    line-height: 1.5;
+    margin-top:33px;
+}
+
+#titoloCentrale{
+        font-family: 'Monserrat', sans-serif; 
+        margin-top: 0px;
+        background-color:#1d242a;
+        color:white;
+      
+}
+
+.title {
+    font-size: 20px;
+    color:rgb(31, 3, 131); 
+    margin-top: 30px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Monserrat', sans-serif; 
+}
+
+
+
+.titolodescrizione {
+    padding-left: 20px;
+}
+
+
+#contenitoreimg1{
+    display:block;
+    width:60%;
+    float:left;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenitoreimg2{
+    display:block;
+    width:60%;
+    float:left;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgdescrizione1 {
+    
+    text-align: center;
+    float:right;
+    margin-bottom:2%;
+    width:100%;
+   
+}
+
+#frontec1 {
+    float: left;
+    width: 200%;
+    height: 600px;
+    margin: auto;
+
+}
+
+#retroc1 {
+    float: left;
+    width: 200%;
+    height: 380px;
+    margin: auto;
+}
+
+#frontec2{
+    float: left;
+    width: 200%;
+    height: 600px;
+    margin: auto;
+}
+
+#retroc2 {
+    float: left;
+    width: 200%;
+    height: 380px;
+    margin: auto;
+ 
+}
+
+.ImmaginiFronte{
+    width: 500px;
+    height: 400px;
+    border-color:#1d242a;
+}
+
+.ImmaginiRetro{
+    width: 650px;
+    height: 400px;
+    float: right;
+    border-color:#1d242a;
+}
+
+.titoloCartolina{
+   text-align: center;
+   color:#1d242a;
+   font-family: 'Monserrat', sans-serif;
+
+}
+   
+
+
+#titolocentrale{
+    text-align:center;
+    
+}
+
+.Descrizione{
+   display:inline;
+   text-align:left;
+   padding-left: 20px;
+   padding-top: 20px;
+   line-height: 10px;
+   
+   font-family: 'Monserrat', sans-serif;
+}
+
+.descCart1{
+     padding-top:5%;
+     background-color:#1d242a ;
+     border-radius:5px;
+     color:white;
+}
+
+/* div deescrizione cartolina 2  */
+.descCart2{
+    padding-top:5%;
+    background-color: #1d242a ;
+    border-radius:5px;
+    color:white;
+}
+
+#note{
+    padding-left:20px;
+}
+
+#crediti{
+    font-size: 1.5em;
+    font-family: 'Monserrat', sans-serif;
+    text-align: center;
+
+}
+
+.footer{
+    color:#1d242a;
+    text-align:center;
+    font-family: 'Monserrat', sans-serif;
+
+}
+
+
+
+/* TOOLTIP  */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted white;
+  
+  font-family:'Montserrat', sans-serif;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color:#717e8e;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0px;
+  
+  
+  
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  
+  
+}
+
+.allinea{
+    display: inline;
+    padding-bottom:0px;
+}

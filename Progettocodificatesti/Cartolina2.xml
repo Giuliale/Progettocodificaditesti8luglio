@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt2">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Bambini che bevono latte - Edizione Digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name ref="#GL">Giulia Lepori</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#LS">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt xml:id="editionStmt2">
+                <edition>Università di Pisa, Informatica Umanistica
+                    <!-- COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="#GL">Giulia Lepori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt xml:id="publicationStmt2">
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="noteStmt2">
+                <note>Sul retro troviamo la stampa "CAVALLERIA RUSTICANA - Viva, viva il vino spumeggiante"</note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc2">
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title type="custom" resp="#ES">[Bambini che bevono latte]</title>
+                    <author ref="#GC">Giovanni Coliola</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Editore</publisher>
+                    
+                </bibl>
+                
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository xml:id="deposito2">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno xml:id="codice2">7694_099_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition xml:id="conservazione2">Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <additions xml:id="noteaggiuntive2">Sul retro troviamo la stampa "CAVALLERIA RUSTICANA - Viva, viva il vino spumeggiante"</additions>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note/>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                   <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                <listOrg>
+                   <org>
+                        <orgName type="N"/>
+                        <desc>Comune di La Spezia</desc>
+                    </org>
+                </listOrg>
+                
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction xml:id="mittente" type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+               
+                    <date type="writing" when="1917-09-06">1917/09/06</date>
+                </correspAction>
+                <correspAction xml:id="destinatario" type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+
+            </correspDesc>
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                     <term>Cartolina</term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica</term>
+                    <!-- descrizione -->
+                    <term>Alcuni bambini per strada bevono del latte da delle bottiglie</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="Crtolina2">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte099" n="1" xml:id="Cartolinaf2"/>
+            <div type="fronte" xml:id="divTxt2">
+                <figure xml:id="figure2" facs="#img2">
+                    <head>
+                        <title xml:id="titolo2">Bambini che bevono latte</title>    
+                    </head>
+                    <figDesc>Bambini in strada che stanno bevendo del latte</figDesc>
+                </figure>
+            </div>
+            <pb facs="#retro099" n="2" xml:id="Cartolinar2"/>
+            <div type="retro" xml:id="divRetroTxt2">
+                <div xml:id="testo2" type="message">
+                    <!-- Intestazione cartolina con luogo e data di stesura -->
+                    <p>
+                        <lb/>
+                        <placeName ref="#MO">Modena</placeName>
+                        <pc pos="$," join="left">,</pc>
+                        <w pos="ADV">lì</w>
+                        <date when="1917-09-06">09/06/1917</date>
+                    </p>
+                   <!-- Corpo della lettera -->
+                    <p xml:id="corpo2">
+                        <lb/>
+                        <phr>
+                            <w pos="ADJ" lemma="ardente">ardentissimo</w>
+                        </phr>
+                        <lb/>
+                    </p>
+                    <p xml:id="firmaGC">
+                        <persName ref="#GC">
+                            Giovannino
+                        </persName>
+                    </p>
+                    <cb/>
+                </div>
+                
+                <div type="destination">
+                    <!-- Indirizzo e destinatario della cartolina-->
+                <div xml:id="indDest2" >
+                    <p>
+                        <choice xml:id="abbr1">
+                            <abbr>Gent</abbr>
+                            <expan>
+                                <w>Gent<am>ile</am>
+                                </w>
+                            </expan>
+                        </choice>
+                        <choice xml:id="abbr2">
+                            <abbr>Sig na</abbr>
+                            <expan>
+                                <w> Sig<am>nori</am>na</w>
+                            </expan>
+                        </choice>
+                        <lb/>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <lb/>
+                        <address>
+                            <addrLine><w> Via </w>
+                                <persName>
+                                    <forename>
+                                        Girolamo
+                                    </forename>
+                                    <surname>
+                                        Rossi
+                                    </surname>
+                                </persName>
+                                <num n="58">58</num>
+                            </addrLine>
+                        </address>
+                        <lb/>
+                        <placeName ref="#RV">
+                            Ravenna
+                        </placeName>
+                    </p>
+                </div>
+                <div xml:id="timbri2" type="destination" >
+                    <p>
+                        <!-- stamps -->
+                       <stamp type="postmark" xml:id="stamptesto2" facs="#stamp2">
+                            <mentioned>MODENA FERROVIA</mentioned>
+                            <date when="1916-06-05">05/06/1916</date>
+                            <time>
+                                <note>L'orario è illeggibile</note>
+                            </time>
+                        </stamp> 
+                        <stamp type="postage">francobollo da 5 centesimi del Regno d'Italia</stamp>
+                    </p>
+                    
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+    <facsimile>
+
+<!--        RETRO-->
+        <surface xml:id="retro099" start="#Cartolinar2">
+            <graphic url="Immagini/7694-099R.jpg" />
+            <zone xml:id="testo" start="#testo2" ulx="136" uly="25" lrx="748" lry="968" />
+            <zone xml:id="indirizzo" start="#indDest2" ulx="766" uly="216" lrx="1613" lry="967" />
+            <zone xml:id="fondocartolina" ulx="19" uly="926" lrx="700" lry="1036" />
+            <!--  -->
+            <zone xml:id="stamp2" start="#stamptesto2" ulx="1271" uly="5" lrx="1634" lry="320" />
+        </surface>
+<!--        FRONTE-->
+        <surface xml:id="fronte099" start="#Cartolinaf2">
+            <graphic url="Immagini/7694-099F.jpg" />
+            <zone xml:id="img2" start="#figure2" ulx="275" uly="71" lrx="1176" lry="257" />
+        </surface>        
+        
+    </facsimile>
+</TEI>
+

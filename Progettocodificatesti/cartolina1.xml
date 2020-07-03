@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<TEI n="cartolina76" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="header76">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO -->
+                <title>Devouement</title>
+                
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name ref="#GL">Giulia Lepori</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt   ref="#ente">
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt xml:id="editionStmt1">
+                <edition>Università di Pisa, Informatica Umanistica
+                    <!-- COMPILAZIONE -->
+                    <date>2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <name ref="#GL">Giulia Lepori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt> 
+                <publisher>
+                    <orgName ref="#UNIPI"> Unipi </orgName> 
+                </publisher>  
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title type="custom" resp="#ES" xml:id="titolo76">Devouement</title>
+                     <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher>Editore</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace xml:id="pubPlace1">Ravenna</pubPlace>
+                    
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository xml:id="deposito">Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno xml:id="codice">7694_076_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary xml:id="tipo">Cartolina Artistica</summary>
+                        <textLang  xml:id="lingua">Italiano</textLang>
+                    </msContents>
+                    <!-- contiene una descrizione fisica completa di un manoscritto o di una sua parte che può essere ulteriormente suddivisa utilizzando elementi specifici della classe -->
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <stamp type="postmark" facs="#stamp">francobollo non interpretabile</stamp>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material xml:id="materiale">Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition xml:id="conservazione">Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <additions xml:id="noteaggiuntive">Sul fronte riporta stampato titolo e nome dell' autore, sul retro “Guerre Europeenne 1914-1916, edition Patriotique” e “I.Lapina, Imp. Edit. - 75, rue Denfert-Rochereau, 77 Paris”, H.Tenre autore dell' opera </additions>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+               
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="HT">
+                        <persName>
+                            <forename>Henry</forename>
+                            <surname>Tenre</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+
+
+                <listPlace>
+                    
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                   <org>
+                        <orgName type="N"/>
+                        <desc>Comune di La Spezia</desc>
+                    </org>
+                </listOrg>
+
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <date type="writing" when="1916-05-23">23/05/1916</date>
+                </correspAction>
+
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Ritratto di crocerossina in uno scenario rurale con cielo in tempesta</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina1"  xml:lang="it">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <pb facs="#fronte076" n="1" xml:id="Cartolinaf1"/>
+            <div type="fronte" xml:id="divTxt1">
+                
+            <p xml:id="TitoloAutore1" facs="#titoloautore"> Pinx. H. Tenrè, Devouement. Devotedness</p>
+                <figure xml:id="imgfronte1"  facs="#Crocerossina">
+                    <head>
+                         <title xml:id="titolo1">Devouement</title>
+                    </head>
+                    <figDesc>
+                        <desc>Ritratto di crocerossina, sullo sfondo aperta campagna e cielo grigio</desc>
+                    </figDesc>
+                </figure>
+            </div>
+            
+            <pb facs="#retro076" n="2" xml:id="Cartolinar1"/>
+            
+            <div type="retro" xml:id="divRetroTxt1">
+                <opener xml:id="testocartolina1">
+                    <dateline xml:id="dataCartolina1">
+                        <placeName xml:id="Ravennatesto" facs="#Ravenna" ref="#RV">Ravenna</placeName>
+                        <pc pos="$," join="left">,</pc>
+<!--                        ADV = avverbio-->
+                        <w pos="ADV">lì</w> 
+                        <date when="1916-05-23">23 maggio 1916</date>
+                    </dateline>
+                </opener>
+<!--               corpo della cartolina-->
+                <p><persName xml:id="firma" facs="#Giovannino" ref="#GC">Giovannino</persName></p>
+                <p xml:id="testoAggiuntivocartolina1_1" facs="#Edizione"> Guerre Europeenne de 1914-1916 Edition Patriotique </p>
+                <p xml:id="testoAggiuntivocartolina1_2" facs="#luogo"> I.Lapina, Imp. Edit. - 75, rue Denfert-Rochereau, 77 Paris </p>
+
+                <!-- stamps -->
+                <p><stamp xml:id="stamptesto" facs="#stamp" type="postmark"><gap reason="illegible"/></stamp></p>
+
+            </div>
+
+          
+        </body>
+    </text>
+    <facsimile>
+    <!--retro-->
+        <surface xml:id="retro076" start="#Cartolinar1">
+            <graphic url='Immagini/7694-076R.jpg' width='1642px' height='1059px' />
+            <zone xml:id="Giovannino" start="#firma" ulx="275" uly="71" lrx="1176" lry="257" />
+            
+            <zone xml:id="Ravenna" start="#Ravennatesto" ulx="854" uly="387" lrx="1631" lry="797" />
+            
+            <zone xml:id="stamp" start="#stamptesto" ulx="1360" uly="84" lrx="1628" lry="385" />
+            
+            <zone xml:id="Edizione" start="#testoAggiuntivocartolina1_1" ulx="34" uly="850" lrx="760" lry="1035" />
+            
+            <zone xml:id="luogo" start="#testoAggiuntivocartolina1_2" ulx="777" uly="401" lrx="813" lry="1021" />
+        </surface>
+        <!--fronte-->
+        <surface xml:id="fronte076" start="#Cartolinaf1">
+            <graphic url='Immagini/7694-076F.jpg' width='1060px' height='1641px' />
+            <zone  xml:id="crocerossina" start="#imgfronte1" ulx="1" uly="6" lrx="1057" lry="1422" />
+            <zone  xml:id="titoloautore" start="#TitoloAutore1" ulx="0" uly="1431" lrx="1058" lry="1641" />
+        </surface>
+    </facsimile>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader xml:id="main">
+        <fileDesc> 
+          
+            <titleStmt> 
+                <!-- TITOLO -->
+
+                <title> Corrispondenze </title>
+                
+                <!-- TRASCRITTORE nome e cognome-->
+                
+               
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="GL">Giulia Lepori</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt xml:id="ente">
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+
+            <!-- raggruppa le informazioni riguardo una edizione di un testo -->
+            <editionStmt>
+            <!-- peculiarità di una edizione  di testo -->
+                <edition> Studentessa di Informatica Umanistica
+                    <!-- COMPILAZIONE -->
+                    <date when="2020">2020</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto, </name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi, </name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+                
+            </editionStmt>
+            
+
+            <!-- raggruppa le informazioni riguardo la pubblicazione o la distribuzione di un documento elettronico o di altra natua. -->
+            <publicationStmt> 
+                <publisher>Unipi</publisher> 
+                <pubPlace>Pisa</pubPlace> 
+                <availability>  
+                    <p>Disponibile solo su licenza</p>
+                </availability>
+   
+                <date when="2020">2020</date>
+                <!-- nome di una persona o di un'organizzazione responsabile della distribuzione di un testo. -->
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <sourceDesc>
+                <!-- descrizione di un unico manoscritto -->
+                <msDesc>
+                    <!-- informazione necessaria ad identificare il manoscritto esaminato -->
+                    <msIdentifier>
+                        <country> Italia </country>
+                        <settlement> La Spezia (SP) </settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>              
+            </sourceDesc>
+            
+            <!-- contiene una descrizione fisica completa di un manoscritto o di una sua parte che può essere ulteriormente suddivisa utilizzando elementi specifici della classe -->
+
+        </fileDesc>    
+    </teiHeader>
+  
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="cartolina1.xml"/>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Cartolina2.xml"/>
+
+</teiCorpus>
